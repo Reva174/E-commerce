@@ -41,7 +41,7 @@ const Product = ({ _id,name, images, description, price }) => {
 Product.propTypes = {
   _id: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
-  images: PropTypes.string.isRequired,
+  images:PropTypes.arrayOf(PropTypes.string).isRequired,
   description: PropTypes.string.isRequired,
   price: PropTypes.number.isRequired,
 };
