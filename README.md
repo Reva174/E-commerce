@@ -80,3 +80,9 @@ We have create an cart page that display the products inside cart using endpoint
 
 ## Milestone 20:
 We have create an Backend endpoint that will sent user data. Also create frontend profile page that will display profile photo, name and email in one section. If there are no address display "No address found". In another section we have displayed address and added an button called "Add address".
+
+## Milestone 21:
+We have create address form in frontend page. We have also create an state that will store input address. We have also implemented the logic where we click on add address in profile it should navigate to this form page. We have create an Backend endpoint that will sent user data. Also create frontend profile page that will display profile photo, name and email in one section. If there are no address display "No address found". In another section we have displayed address and added an button called "Add address".
+
+## Milestone 22:
+We have create an endpoint that will receive the address from address form in frontend. We have also added the address to the address array inside user collection.
