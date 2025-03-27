@@ -1,9 +1,5 @@
-# E-commerce
+## Milestone 14:
+We have created an endpoint that delete the product with specific ID from MongoDB.
 
-## Milestone 1
-Overview: We are going to build an e-commerce website using MERN stack.
-M- MongoDb used for database
-E- Express used for building of servers
-R- React used for building of UI for project
-N- Nodejs used for setting up of backend
-Through this project, we'll be getting the understanding of how to build a project from scratch.
+## Milestone 15:
+We have created an new Navbar with links to all pages. We have also implemented the Navbar responsive to all screen sizes.
