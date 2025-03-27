@@ -65,3 +65,6 @@ We have created an endpoint that delete the product with specific ID from MongoD
 
 ## Milestone 15:
 We have created an new Navbar with links to all pages. We have also implemented the Navbar responsive to all screen sizes.
+
+## Milestone 16:
+We have created a product details page where if click on "more info" it shows the information of the product. We have also created two buttons to increase and decrease the quantity of the product.
