@@ -96,3 +96,6 @@ First we display all products we are ordering then we displayed the address user
 
 ## Milestone 25:
 In this milestone we configured the backend for the place order page.
+
+## Milestone 26:
+In this milestone we have created an endpoint of my order.
