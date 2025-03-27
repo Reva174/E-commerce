@@ -97,4 +97,10 @@ First we display all products we are ordering then we displayed the address user
 In this milestone we configured the backend for the place order page.
 
 ## Milestone 26:
-n this milestone we have created an endpoint of my order.
+In this milestone we have created an endpoint of my order.
+
+## Milestone 27:
+In this milestone we have created an frontend page that displays all the user orders.
+
+## Milestone 28:
+In this milestone we have created functionality to cancel the placed order.
