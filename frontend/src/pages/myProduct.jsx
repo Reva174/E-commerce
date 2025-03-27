@@ -31,7 +31,7 @@ export default function MyProducts() {
     }
 
     if (error) {
-        return <div className="text-center text-red-500 mt-10">Error: {error}</div>;
+        return <div className="text-center text-red-500 mt-10 bg-red-600">Error: {error}</div>;
     }
 
     return (
