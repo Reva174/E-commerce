@@ -89,3 +89,4 @@ We have create an endpoint that will receive the address from address form in fr
 
 ## Milestone 23:
 We've create an placeholder button inside cart page which is used navigate to select address page when clicked. Created a select address page that will display all the available address and have an option to select one address. Wrote an backend endpoint that will send all the addresses of the user.
+We have create an endpoint that will receive the address from address form in frontend. We have also added the address to the address array inside user collection.
