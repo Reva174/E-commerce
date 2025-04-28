@@ -1,7 +1,8 @@
-import React, {useState} from "react";
-import axios from "axios";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Nav from "../components/auth/nav";
+import axios from "../axiosConfig";
+import { useSelector } from 'react-redux'; // Import useSelector
 
 const CreateAddress = () => {
     const navigate = useNavigate();
@@ -12,6 +13,9 @@ const CreateAddress = () => {
     const [address2, setAddress2] = useState("");
     const [zipCode, setZipCode] = useState("");
     const [addressType, setAddressType] = useState("");
+    // Get the email from Redux state
+    const email = useSelector((state) => state.user.email);
+
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -22,7 +26,7 @@ const CreateAddress = () => {
             address2,
             zipCode,
             addressType,
-            email: "reva@gmail.com"
+            email
         };
 
         try {
@@ -42,6 +46,7 @@ const CreateAddress = () => {
             alert("Failed to add address. Please check the data and try again.");
         }
     };
+
     return (
         <>
             <Nav />
@@ -105,7 +110,8 @@ const CreateAddress = () => {
                                 placeholder="Enter address 2 (optional)"
                             />
                         </div>
-<div className="mt-4">
+
+                        <div className="mt-4">
                             <label className="pb-1 block text-gray-600 font-medium">
                                 Zip Code <span className="text-red-500">*</span>
                             </label>
@@ -147,3 +153,4 @@ const CreateAddress = () => {
 };
 
 export default CreateAddress;
+
